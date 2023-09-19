@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/5d7dec0528.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+  
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Fatou Bintou ZONGO</a>.
+  </div>
+
+  <div class="container">
+
+    <!-- left side -->
+    <div class="left-side">
+      <div class="inner">
+        <h3>Your Result</h3>
+        <div class="number">
+          <span>76</span>
+          <small>of 100</small>
+        </div>
+        <div class="score">
+          <h1>Great</h1>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="right-side">
+      <h3>Summary</h3>
+      <div class="right-side-container">
+        <div class="container-right div1">
+          <div> <i class="fa fa-bolt"></i>Reaction</div>
+          <div class="number-bold"><b>80</b><span>/ </span> <span>100</span></div>
+          
+        </div>
+        <div class="container-right div2">
+          <div> <i class="fa-solid fa-brain"></i>Memory</div>
+          <div class="number-bold"><b>92</b><span>/</span> <span>100</span></div>
+          
+        </div>
+        <div class="container-right div3">
+          <div><i class="fa-regular fa-comment"></i>Verbal</div>
+          <div class="number-bold"><b>61</b><span>/</span> <span>100</span></div>
+        </div>
+        <div class="container-right div4">
+          <div> <i class="fa-regular fa-eye"></i>Visual</div>
+          <div class="number-bold"><b>72</b><span>/</span> <span>100</span></div>
+        </div>
+        <div>
+          <button type="submit"> Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
